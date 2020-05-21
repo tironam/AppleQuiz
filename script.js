@@ -84,3 +84,12 @@ const questions = [
         ]
     },
 ]
+
+const nextButton = document.getElementById('next-btn')
+// const questionContainerElement = document.getElementById('question-container')
+const questionElem = document.getElementById('question')
+const answerButtonsElem = document.getElementById('answer-buttons')
+const startText = document.getElementById('start-message')
+let right = 0
+
+let shuffledQs, currentQIndex
