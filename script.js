@@ -2,77 +2,35 @@ const questions = [
     {
         question: 'What time is always listed on all the iPhones and iPads on Apple\'s website?',
         answers: [
-            {
-                text: '9:42', 
-                correct: false
-            },
-            {
-                text: '10:00',
-                correct: false
-            },
-            {
-                text: '10:01',
-                correct: false
-            },
-            {
-                text: '9:41',
-                correct: true
-            }
+            { text: '9:42', correct: false },
+            { text: '10:00',  correct: false },
+            { text: '10:01', correct: false },
+            {  text: '9:41', correct: true }
         ]
     },
     {
         question: 'What was the first iPhone to not have the headphone jack?'
         answers: [
-            {
-                text: 'iPhone SE',
-                correct: false
-            },
-            {
-                text: 'iPhone 7',
-                correct: true
-            },
-            {
-                text: 'iPhone 6s',
-                correct: false
-            },
-            {
-                text: 'iPhone X',
-                correct: false
-            }
+            {  text: 'iPhone SE', correct: false },
+            {  text: 'iPhone 7', correct: true },
+            { text: 'iPhone 6s', correct: false },
+            { text: 'iPhone X', correct: false}
         ]
     },
     {
         question: 'Both generations of Apple Pencil have a double-tap gesture control'
         answers: [
-            {
-                text: 'True',
-                correct: false
-            },
-            {
-                text: 'False',
-                correct: true
-            }
+            { text: 'True', correct: false },
+            { text: 'False', correct: true }
         ]
     },
     {
         question: 'What\'s the name of the programming language Apple created to simplify coding that it uses for apps?'
         answers: [
-            {
-                text: 'Objective-C',
-                correct: false
-            },
-            {
-                text: 'Swot',
-                correct: false
-            },
-            {
-                text: 'Python',
-                correct: false
-            },
-            {
-                text: 'Swift',
-                correct: true
-            }
+            { text: 'Objective-C', correct: false },
+            {  text: 'Swot', correct: false },
+            {  text: 'Python', correct: false },
+            { text: 'Swift', correct: true }
         ]
     },
     {
