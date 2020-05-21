@@ -1,0 +1,35 @@
+.container-fluid {
+    margin-top: 200px;
+}
+
+body {
+    background-color: rgba(176, 224, 247)
+}
+
+.container {
+    width: 60%;
+    max-width: 80%;
+    background-color: rgba(72, 69, 221, 0.4);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+}
+
+.btn {
+    /* padding: 10px; */
+    margin: 50px 10px 10px 10px;
+}
+
+.text-center {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.row {
+    background-color: rgb(102, 102, 153, 0.3)
+}
+
+/* .invisible {
+    font-size: 0px;
+} */
